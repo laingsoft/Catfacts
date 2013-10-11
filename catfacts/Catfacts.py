@@ -3,7 +3,7 @@ def catfacts():
     work=open('catfacts.txt','r')
     lines = work.readlines()
     message = lines[random.randint(0,((len(lines)-1)))]
-    vtext = "7809073336"
+    vtext = #number goes here
     provider = "telus"
     str.lower(provider)
     if provider == "telus":
